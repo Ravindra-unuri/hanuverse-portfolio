@@ -1,3 +1,4 @@
+import { Link } from "lucide-react";
 import Image from "next/image";
 
 export default function NavBar() {
@@ -6,7 +7,7 @@ export default function NavBar() {
             <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
 
                 {/* Logo and Brand Name */}
-                <a href="/" className="flex items-center space-x-2">
+                <Link href="/" className="flex items-center space-x-2">
                     <Image
                         src="/assets/LOGO.png"
                         alt="Logo"
@@ -17,7 +18,7 @@ export default function NavBar() {
                     <span className="text-xl font-bold text-[#0A192F] dark:text-white tracking-wide">
                         HANUVERSE
                     </span>
-                </a>
+                </Link>
 
                 {/* Nav Links */}
                 <nav className="hidden md:flex space-x-6 font-medium text-gray-700 dark:text-gray-200">
