@@ -14,21 +14,21 @@ export default function ContactSection() {
         },
         {
             name: "Siddharth Shukla",
-            role: "Web Developer",
+            role: "Web Developer & DBA",
             experience:
-                "Over 1 year of experience in building responsive websites and web platforms using Node.js, with expertise in graphic design.",
-            mail: "anjali@example.com",
+                "Over 1 year of experience in building responsive websites and web platforms using Node.js, with expertise in graphic design and data base management.",
+            mail: "sidshukla2016@gmail.com",
             contact: 74868923895,
-            image: "/assets/ravindra_unuri.jpg",
+            image: "/assets/siddharth.png",
         },
         {
-            name: "Kishan Chhatbar",
-            role: "Video Content & Reels Expert",
+            name: "Nitesh Chaubey",
+            role: "Quality Analist & It Expert",
             experience:
                 "Over 1 year of experience in creating engaging reels and video marketing content focused on Instagram growth.",
             mail: "sagar@example.com",
             contact: 74868923895,
-            image: "/assets/ravindra_unuri.jpg",
+            image: "/assets/nitesh.png",
         },
     ];
 
