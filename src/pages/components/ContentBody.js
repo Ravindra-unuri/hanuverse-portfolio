@@ -6,7 +6,7 @@ import ContactSection from "./ContactSection";
 
 export default function ContentBody() {
     return (
-        <div>
+        <div className="mt-12">
             <HeroSection />
             <ServiceSection />
             <PricingSection />

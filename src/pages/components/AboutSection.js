@@ -2,7 +2,7 @@ import DoodleCarousel from "./DoodleCarousel";
 
 export default function AboutSection() {
     return (
-        <section id="about" className="bg-white-100 dark:bg-gray-900 py-16 px-6">
+        <section id="about" className=" dark:bg-gray-900 py-16 px-6">
             <div className="max-w-5xl mx-auto text-center">
                 <h2 className="text-4xl font-bold text-navi-blue mb-6">About Hanuverse</h2>
                 <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">

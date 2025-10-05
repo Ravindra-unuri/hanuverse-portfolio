@@ -36,7 +36,7 @@ export default function ContactSection() {
     return (
         <section
             id="contact"
-            className="bg-gradient-to-br from-[#F5F5F5] via-[#FFFFFF] to-[#F5F5F5] py-20 px-6"
+            className="bg-white py-20 px-6"
         >
             <div className="max-w-6xl mx-auto text-center">
                 <h2 className="text-4xl font-bold text-[#1A1A1A] mb-4 tracking-wide">
@@ -46,7 +46,7 @@ export default function ContactSection() {
                     Passionate experts ready to bring your digital vision to life.
                 </p>
 
-                <div className="grid md:grid-cols-3 gap-10">
+                <div className="grid md:grid-cols-4 gap-5">
                     {team.map((member, index) => (
                         <div key={index} className="bg-[#CFCFCF] border-gray-200 rounded-2xl shadow-[0_4px_20px_rgba(0,0,0,0.05)] p-6 hover:shadow-[0_6px_25px_rgba(0,0,0,0.08)] transition">
                             <div>
