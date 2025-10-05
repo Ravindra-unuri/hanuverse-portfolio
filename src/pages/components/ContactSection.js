@@ -1,5 +1,6 @@
 // ContactSection.jsx or .tsx (depending on your project setup)
 import Image from "next/image";
+import { IoPersonSharp } from "react-icons/io5";
 
 export default function ContactSection() {
     const team = [
@@ -48,20 +49,16 @@ export default function ContactSection() {
 
                 <div className="grid md:grid-cols-4 gap-5">
                     {team.map((member, index) => (
-                        <div key={index} className="bg-[#CFCFCF] border-gray-200 rounded-2xl shadow-[0_4px_20px_rgba(0,0,0,0.05)] p-6 hover:shadow-[0_6px_25px_rgba(0,0,0,0.08)] transition">
+                        <div key={index} className="bg-white border border-gray-200 dark:border-gray-800 rounded-lg shadow-[0_4px_20px_rgba(0,0,0,0.05)] p-6 hover:shadow-[0_6px_25px_rgba(0,0,0,0.08)] transition">
                             <div>
-                                <Image
-                                    src={member.image}
-                                    alt={member.name}
-                                    width={128}
-                                    height={128}
-                                    className="rounded-full object-cover mb-4 border-4 border-[#D4AF37] mx-auto"
+                                <IoPersonSharp
+                                    className="rounded-full h-25 w-25 text-[#0A192F] object-cover mb-4 border-4 border-orange-500 mx-auto"
                                 />
                             </div>
-                            <h3 className="text-xl font-semibold text-[#1A1A1A] tracking-wide">
+                            <h3 className="text-xl font-semibold text-[#0A192F] tracking-wide">
                                 {member.name}
                             </h3>
-                            <p className="text-[#A3874A] font-medium italic">
+                            <p className="text-orange-500 font-medium italic">
                                 {member.role}
                             </p>
                             <p className="text-sm text-gray-700 mt-2 leading-relaxed">

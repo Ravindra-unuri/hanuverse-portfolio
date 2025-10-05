@@ -10,7 +10,7 @@ export default function ServiceSection() {
                 <div className="grid md:grid-cols-4 gap-5">
                 
                     {/* Website Development */}
-                    <div className="bg-white dark:bg-gray-900 rounded-2xl p-6 border-l-4 border-[#D4AF37] shadow-md hover:shadow-lg hover:shadow-[#3AAFA950] transition-all duration-300">
+                    <div className="bg-white dark:bg-gray-900 rounded-2xl p-6 border-l-4 border-orange-500 shadow-md hover:shadow-lg hover:shadow-[#3AAFA950] transition-all duration-300">
                         <div className="text-5xl mb-4">💻</div>
                         <h3 className="text-xl font-semibold mb-2 text-[#0A192F] dark:text-white">
                             Website Development
@@ -21,7 +21,7 @@ export default function ServiceSection() {
                     </div>
 
                     {/* Logo Designing */}
-                    <div className="bg-white dark:bg-gray-900 rounded-2xl p-6 border-l-4 border-[#D4AF37] shadow-md hover:shadow-lg hover:shadow-[#3AAFA950] transition-all duration-300">
+                    <div className="bg-white dark:bg-gray-900 rounded-2xl p-6 border-l-4 border-orange-500 shadow-md hover:shadow-lg hover:shadow-[#3AAFA950] transition-all duration-300">
                         <div className="text-5xl mb-4">🎨</div>
                         <h3 className="text-xl font-semibold mb-2 text-[#0A192F] dark:text-white">
                             Logo Designing
@@ -32,7 +32,7 @@ export default function ServiceSection() {
                     </div>
 
                     {/* Reel Creation */}
-                    <div className="bg-white dark:bg-gray-900 rounded-2xl p-6 border-l-4 border-[#D4AF37] shadow-md hover:shadow-lg hover:shadow-[#3AAFA950] transition-all duration-300">
+                    <div className="bg-white dark:bg-gray-900 rounded-2xl p-6 border-l-4 border-orange-500 shadow-md hover:shadow-lg hover:shadow-[#3AAFA950] transition-all duration-300">
                         <div className="text-5xl mb-4">🎥</div>
                         <h3 className="text-xl font-semibold mb-2 text-[#0A192F] dark:text-white">
                             Reel Creation
@@ -43,7 +43,7 @@ export default function ServiceSection() {
                     </div>
 
                     {/* Digital Business Card Creation */}
-                    <div className="bg-white dark:bg-gray-900 rounded-2xl p-6 border-l-4 border-[#D4AF37] shadow-md hover:shadow-lg hover:shadow-[#3AAFA950] transition-all duration-300">
+                    <div className="bg-white dark:bg-gray-900 rounded-2xl p-6 border-l-4 border-orange-500 shadow-md hover:shadow-lg hover:shadow-[#3AAFA950] transition-all duration-300">
                         <div className="text-5xl mb-4">🪪</div>
                         <h3 className="text-xl font-semibold mb-2 text-[#0A192F] dark:text-white">
                             Digital Business Cards
