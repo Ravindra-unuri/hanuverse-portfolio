@@ -7,7 +7,7 @@ export default function ServiceSection() {
                     Hanuverse delivers fast, modern, and creative digital solutions to help you shine online.
                 </p>
 
-                <div className="grid md:grid-cols-3 gap-8">
+                <div className="grid md:grid-cols-4 gap-5">
                 
                     {/* Website Development */}
                     <div className="bg-white dark:bg-gray-900 rounded-2xl p-6 border-l-4 border-[#D4AF37] shadow-md hover:shadow-lg hover:shadow-[#3AAFA950] transition-all duration-300">

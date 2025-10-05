@@ -7,7 +7,7 @@ export default function PricingSection() {
                     Affordable, transparent, and designed to grow with your business.
                 </p>
 
-                <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-5">
                     {/* Website Development */}
                     <div className="bg-white dark:bg-gray-900 rounded-xl p-6 border border-gray-200 dark:border-gray-800 shadow hover:shadow-lg transition">
                         <h3 className="text-xl font-bold text-[#0A192F] dark:text-white mb-2">Website Development</h3>
@@ -26,9 +26,9 @@ export default function PricingSection() {
 
                     {/* Reel Creation */}
                     <div className="bg-white dark:bg-gray-900 rounded-xl p-6 border border-gray-200 dark:border-gray-800 shadow hover:shadow-lg transition">
-                        <h3 className="text-xl font-bold text-[#0A192F] dark:text-white mb-2">Reel Creation</h3>
+                        <h3 className="text-xl font-bold text-[#0A192F] dark:text-white mb-2">Reel Creation & Video Editing</h3>
                         <p className="text-[#2E2E2E] dark:text-gray-300 mb-4">Starts at</p>
-                        <div className="text-3xl font-semibold text-[#D4AF37] mb-4">₹499</div>
+                        <div className="text-3xl font-semibold text-[#D4AF37] mb-4">₹4,999/2 reel editing</div>
                         <p className="text-sm text-gray-500 dark:text-gray-400">Scroll-stopping reels, optimized for platforms.</p>
                     </div>
 

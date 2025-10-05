@@ -7,27 +7,28 @@ export default function ContactSection() {
             name: "Ravindrasingh Unuri",
             role: "Web developer – Logo & Visuals",
             experience:
-                "Over 1 year of experience in building responsive websites and web platforms using PHP (Laravel), with expertise in logo design and digital business card creation.",
-            mail: "ravindraunuri@gmail.com",
-            contact: 74868923895,
-            image: "/assets/ravindra_unuri.jpg",
+                "Over 1 year of experience in building responsive websites and web platforms using PHP (Laravel) & NextJs, with expertise in logo design and digital business card creation.",
+            image: "/assets/nitesh.png",
         },
         {
             name: "Siddharth Shukla",
             role: "Web Developer & DBA",
             experience:
                 "Over 1 year of experience in building responsive websites and web platforms using Node.js, with expertise in graphic design and data base management.",
-            mail: "sidshukla2016@gmail.com",
-            contact: 74868923895,
             image: "/assets/siddharth.png",
         },
         {
             name: "Nitesh Chaubey",
             role: "Quality Analist & It Expert",
             experience:
+                "Over a year of solid QA engineering experience and experience in building responsive websites and web platforms using PHP (Laravel).",
+            image: "/assets/nitesh.png",
+        },
+        {
+            name: "Abhishek Ganvir",
+            role: "Video Editor",
+            experience:
                 "Over 1 year of experience in creating engaging reels and video marketing content focused on Instagram growth.",
-            mail: "sagar@example.com",
-            contact: 74868923895,
             image: "/assets/nitesh.png",
         },
     ];
@@ -66,15 +67,6 @@ export default function ContactSection() {
                             <p className="text-sm text-gray-700 mt-2 leading-relaxed">
                                 {member.experience}
                             </p>
-                            {/* <p className="text-sm text-gray-700 mt-2">
-                                 {member.contact}
-                            </p> */}
-                            <a href={`tel:${member.contact}`} className="mt-2 inline-block text-blue-600 dark:text-blue-400 hover:underline">
-                                📞 {member.contact}
-                            </a><br />
-                            <a href={`mailto:${member.mail}`} className="mt-2 inline-block text-[#007BFF] hover:underline text-sm">
-                                ✉ {member.mail}
-                            </a>
                         </div>
                     ))}
                 </div>
