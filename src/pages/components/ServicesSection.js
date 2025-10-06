@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 export default function ServiceSection() {
     return (
         <section id="services" className="bg-white dark:bg-gray-950 py-20 px-6">
@@ -7,9 +8,13 @@ export default function ServiceSection() {
                     Hanuverse delivers fast, modern, and creative digital solutions to help you shine online.
                 </p>
 
-                <div className="grid md:grid-cols-4 gap-5">
-                
-                    {/* Website Development */}
+                <motion.div
+                    initial={{ opacity: 0, y: 50 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.8, delay: 0.2 }}
+                    viewport={{ once: true }}
+                    className="grid md:grid-cols-4 gap-5"
+                >
                     <div className="bg-white dark:bg-gray-900 rounded-2xl p-6 border-l-4 border-orange-500 shadow-md hover:shadow-lg hover:shadow-[#3AAFA950] transition-all duration-300">
                         <div className="text-5xl mb-4">💻</div>
                         <h3 className="text-xl font-semibold mb-2 text-[#0A192F] dark:text-white">
@@ -52,8 +57,8 @@ export default function ServiceSection() {
                             Smart, scannable, and sleek digital business cards to represent your brand in the modern world.
                         </p>
                     </div>
+                </motion.div>
 
-                </div>
             </div>
 
             {/* Optional: Add a soft pattern background to this section using a div or background SVG */}
