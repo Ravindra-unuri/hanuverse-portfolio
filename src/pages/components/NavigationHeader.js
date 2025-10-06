@@ -26,12 +26,13 @@ export default function NavBar() {
         {/* 🔸 Navigation Links (Desktop Only) */}
         <nav className="hidden md:flex space-x-8 font-[Inter] text-[#0A192F] text-base font-medium">
           {navLinks.map((item) => (
-            <button
+            <a
               key={item}
+              href={`#${item.toLowerCase()}`}
               className="hover:text-orange-500 transition-colors duration-200"
             >
               {item}
-            </button>
+            </a>
           ))}
         </nav>
 
@@ -62,12 +63,14 @@ export default function NavBar() {
         <div className="md:hidden bg-white border-t border-gray-200 text-center py-4 space-y-4 shadow-inner animate-slideDown">
           {/* Nav Links */}
           {navLinks.map((item) => (
-            <button
+            <a
               key={item}
+              href={`#${item.toLowerCase()}`}
               className="block w-full text-[#0A192F] text-lg font-medium hover:text-orange-500 transition-colors duration-200"
+              onClick={() => setIsOpen(false)} // Close mobile menu on click
             >
               {item}
-            </button>
+            </a>
           ))}
 
           {/* Social Icons (Mobile) */}
