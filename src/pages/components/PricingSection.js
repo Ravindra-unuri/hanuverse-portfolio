@@ -83,8 +83,16 @@ export default function PricingSection() {
                         </ul>
 
                         <div className="text-center">
-                            <h1 className="text-4xl font-extrabold text-orange-500 mb-6">₹15,000 / month</h1>
+                            <h1 className="text-2xl font-extrabold text-orange-500 mb-6">
+                                <span className="line-through">
+                                    ₹16,000 / month
+                                </span>
+                                <span>
+                                    &nbsp;&nbsp;₹14,000 / month
+                                </span>
+                            </h1>
                         </div>
+
                     </motion.div>
                 </motion.div>
             </div>
