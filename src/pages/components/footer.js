@@ -25,7 +25,9 @@ export default function Footer() {
                         <Image
                             src="/assets/LOGO.png"
                             alt="Hanuverse Logo"
-                            className="w-14 h-14 rounded-full object-cover mb-2"
+                            className="rounded-full object-cover mb-2"
+                            width={14}
+                            height={14}
                         />
                         <h1 className="text-lg sm:text-xl font-extrabold bg-gradient-to-r from-orange-500 to-[#ffffff] bg-clip-text text-transparent">
                             Hanuverse

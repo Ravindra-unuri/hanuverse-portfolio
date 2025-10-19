@@ -25,7 +25,9 @@ export default function NavBar() {
           <Image
             src="/assets/LOGO.png"
             alt="Logo"
-            className="w-12 h-12 sm:w-14 sm:h-14 rounded-full object-cover"
+            className="sm:w-14 sm:h-14 rounded-full object-cover"
+            width={12}
+            height={12}
           />
           <h1 className="text-lg sm:text-xl font-extrabold bg-gradient-to-r from-orange-500 to-[#0A192F] bg-clip-text text-transparent">
             Hanuverse
