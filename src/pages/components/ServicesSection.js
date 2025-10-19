@@ -59,7 +59,7 @@ export default function ServiceSection() {
                             Logo Designing
                         </h3>
                         <p className="text-[#2E2E2E] dark:text-gray-300">
-                            Creative and memorable logos that reflect your brand’s identity with a clean and professional look.
+                            Creative and memorable logos that reflect your brand&apos;s identity with a clean and professional look.
                         </p>
                     </div>
 
