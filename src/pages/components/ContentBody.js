@@ -9,7 +9,6 @@ export default function ContentBody() {
         <div className="mt-12">
             <HeroSection />
             <ServiceSection />
-            {/* <PricingSection /> */}
             <ContactSection />
             <AboutSection />
         </div>
