@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import { Facebook, Instagram, Linkedin, Twitter, Phone, Mail } from "lucide-react";
+import Image from "next/image";
 
 export default function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,7 +22,7 @@ export default function NavBar() {
 
         {/* 🔸 Logo + Company Name */}
         <div className="flex flex-col items-center">
-          <img
+          <Image
             src="/assets/LOGO.png"
             alt="Logo"
             className="w-12 h-12 sm:w-14 sm:h-14 rounded-full object-cover"

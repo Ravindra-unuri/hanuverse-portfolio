@@ -9,7 +9,7 @@ export default function ServiceSection() {
                 <title>Our Services | Hanuverse Digital Marketing Agency</title>
                 <meta
                     name="description"
-                    content="Discover Hanuverse's professional digital services including website development, logo design, reel creation, and digital business card solutions to help your brand grow online."
+                    content="Discover Hanuverse&apos;s professional digital services including website development, logo design, reel creation, and digital business card solutions to help your brand grow online."
                 />
                 <meta
                     name="keywords"

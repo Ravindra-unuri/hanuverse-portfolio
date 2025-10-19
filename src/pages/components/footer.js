@@ -9,6 +9,7 @@ import {
     Youtube,
     Phone
 } from "lucide-react";
+import Image from "next/image";
 
 export default function Footer() {
     const navLinks = ["Home", "About", "Services", "Contact"];
@@ -21,7 +22,7 @@ export default function Footer() {
                 {/* --- Left: Logo + About --- */}
                 <div>
                     <div className="flex flex-col items-start mb-4">
-                        <img
+                        <Image
                             src="/assets/LOGO.png"
                             alt="Hanuverse Logo"
                             className="w-14 h-14 rounded-full object-cover mb-2"
